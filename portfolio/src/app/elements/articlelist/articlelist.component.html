@@ -1,0 +1,21 @@
+<div class="list">
+  <div *ngFor="let article of articles" >
+    <div class="col">
+      <div class="image-flip">
+        <div class="mainflip">
+          <div class="frontside">
+            <div class="card">
+              <div class="card-body text-center">
+                <a routerLink="{{article.title}}">
+                  <img src="/assets/images/Articles/{{article.title}}/images/{{article.title}}.png" alt="{{article.title}}" />
+                </a>
+                <h4 class="card-title">{{article.title}}</h4>
+                <p>{{article.text}}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

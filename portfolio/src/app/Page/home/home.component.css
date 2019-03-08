@@ -1,0 +1,46 @@
+
+.profilimage{
+  border-radius: 25px;
+  border: 2px solid rgb(219, 76, 9);
+ height: 250px;
+ margin-top: 12%;
+}
+
+.col-md-6.warning-message{
+  width: 700px;
+}
+.col-md-7{
+    font-size: 130%;
+}
+.col-sm-8{
+  font-size: 130%;
+}
+.first{
+  margin-top:5%;
+}
+.following{
+  flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+    font-size: 200%;
+}
+.featurette-heading{
+  color:rgb(219, 76, 9);
+}
+.text-muted{
+  color:#000 !important;
+}
+.lead{
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 115%;
+}
+hr{
+  margin: 35px auto;
+  width: 100%;
+  height: 2px;
+  background-color: rgb(0, 0, 0);
+  border: none;
+}
+h2{
+  font-size:125%;
+}

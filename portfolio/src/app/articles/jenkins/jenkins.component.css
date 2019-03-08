@@ -1,0 +1,38 @@
+.page {
+  margin-top: 25px;
+  margin-bottom: 2;
+  background-color: #fff;
+  margin-right: 2%;
+  margin-left: 2%;
+  border-radius: 7px;
+}
+.profilimage{
+border-radius: 25px;
+border: 2px solid rgb(12, 74, 90);
+height: 250px;
+}
+
+h2{
+color: rgb(146, 7, 7);
+}
+
+hr{
+color: rgb(146, 7, 7);
+}
+.col-md-6.warning-message{
+width: 700px;
+}
+.featurette-heading{
+color:rgb(219, 76, 9)
+}
+.text-muted{
+color:#000 !important
+}
+.title{
+align-content: center;
+color: rgb(12, 74, 90);
+}
+
+.lead{
+font-weight: 400;
+}

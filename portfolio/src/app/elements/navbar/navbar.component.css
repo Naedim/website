@@ -1,0 +1,29 @@
+.navbar-brand  {
+  color: rgb(239, 239, 243);
+  font-size:200%;
+}
+.bg-primary {
+
+  background-color: #000000e5 !important;
+
+}
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+
+  color: rgb(255, 0, 0);
+
+}
+.navbar-toggler {
+  background-color: #fff;
+}
+
+.article{
+  color: rgba(0, 0, 0, 0.959);
+}
+
+.navbar.navbar-expand-lg.navbar-light.bg-primary{
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width:100%;
+  z-index: 2;
+}

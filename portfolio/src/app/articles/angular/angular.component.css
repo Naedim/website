@@ -1,0 +1,59 @@
+
+.profilimage{
+border-radius: 25px;
+border: 2px solid rgb(255, 0, 34);
+height: 250px;
+}
+
+.otherimage{
+
+  max-width: 250px;
+  width: 300px;
+  height: 250px;
+  max-height: 250px;
+  min-width:10%;
+  border-radius: 25px;
+  border-radius: 25px;
+  border: 2px solid rgb(0, 0, 0);
+  margin-left:15px;
+  }
+
+h2{
+color: rgb(146, 7, 7);
+}
+
+hr{
+color: rgb(146, 7, 7);
+}
+.col-md-6.warning-message{
+width: 700px;
+}
+.featurette-heading{
+color:rgb(219, 76, 9)
+}
+
+h1.text-center{
+color: rgb(255, 0, 34);
+margin-top:6%;
+}
+
+.title{
+color: rgb(255, 0, 34);
+}
+
+.lead{
+font-weight: 400;
+}
+.img-fluid{
+  max-width: 100%;
+  height: auto;
+  min-width:10%;
+  border-radius: 25px;
+  border: 2px solid rgb(0, 0, 0);
+}
+a{
+  color: rgb(255, 0, 34);
+}
+.italic{
+  font-style:italic;
+}

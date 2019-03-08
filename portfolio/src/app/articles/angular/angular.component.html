@@ -1,0 +1,129 @@
+
+
+      <!-- START THE FEATURETTES -->
+      <hr>
+          <div class="row featurette">
+            <div class="col-md-7">
+              <h1 class="title">Angular presentation</h1>
+                <p class="lead">
+                  Angular is a nodeJS framework that helps you developing SPA
+                  (Single Page Application). It&rsquo;s one of the three most used framework
+                  in 2018, with React and VueJS. <br/>  In this tutorial I will explain:
+                </p>
+                <ul>
+                  <li><p class="lead">What is a SPA</p></li>
+                  <li><p class="lead">Introduction to Angular Components</p></li>
+                  <li><p class="lead">How to create your first Angular App</p></li>
+                </ul>
+            </div>
+              <div class="col-md-5">
+                <img class="profilimage" src="/assets/images/Articles/angular/images/angular.png" alt="Angular logo">
+              </div>
+          </div>
+      <h1 class="text-center">Explanation of what a SPA is : </h1>
+      <br>
+      <p class="lead">A Single Page Application is a web application using a single page to navigate throughout
+         the application. A SPA avoids the reloading of the browser page for each action of the user,
+          would it be wholly or partially. <br>
+          Angular uses the <a href="https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller">Model-View-Controller</a> architectural pattern.
+        </p>
+          <br>
+        <div class="text-center">
+          <img  class="img-fluid" src="/assets/images/Articles/angular/images/MVC.png" alt="MVC">
+          <br><br>
+          <h6>source: https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller</h6>
+        </div>
+        <br>
+        <p class="lead">
+        The <strong>View</strong> is the structure of the graphic interface that is shown
+        to the user. It’s updated when the <strong>Model</strong> is modified.
+        The <strong>Model</strong> is the module that contains the data and logic of your application.
+        A modification of the <strong>Model's</strong> data results in an update of the <strong>View</strong>.
+        The <strong>Controller</strong> is the module that treats what the user does and modifies the <strong>Model’s</strong>
+        data consequently.
+        </p>
+        <br><br>
+
+      <div class="col-xs-1 text-center">
+          <strong>Examples of SPA that use Angular:</strong>
+          <br><br>
+      <img  class="otherimage"src="/assets/images/Articles/angular/images/gmail.png" alt="gmail">
+      <img class="otherimage" src="/assets/images/Articles/angular/images/YouTube-TV.png" alt="youtubeTV">
+      <img class="otherimage" src="/assets/images/Articles/angular/images/office365.png" alt="youtubeTV">
+    </div>
+      <br>
+      <h1 class="text-center">Angular Components:</h1>
+      <br>
+      <p class="lead">A component in angular is an object that contains his own part of the application code.
+        It allows you to divide your application in several “blocks” that can be linked with each others.
+
+      <br>
+      <div class="text-center">
+      <img class="img-fluid" src="/assets/images/Articles/angular/images/components_interaction.png" alt="Interaction components">
+      <br><br>
+      <h6>source: https://docs.angularjs.org/guide/component-router</h6>
+
+    </div>
+    <br>
+     <p class="lead">Each component has its own data, distributed in 4 files:</p>
+     <div class="text-center">
+     <img class="img-fluid" src="/assets/images/Articles/angular/images/component_structure.png" alt="component_structure">
+    </div>
+    <br><br>
+     <ul>
+        <li><p class="lead">components.css file that contains the own css of the component</p></li>
+        <li><p class="lead">component.html file that contains the own HTML of the component</p></li>
+        <li><p class="lead">component.spec.ts file are for unit used for the test of components</p></li>
+        <li><p class="lead">component.ts file that allows you to use variables and export some class specific to the component</p></li>
+    </ul>
+
+      <h1 class="text-center">How to create your first Angular App :</h1>
+      <br><br>
+      <div class="lead">
+          <ol>
+            <li>Install Node</li>
+            <li>Install Angular</li>
+            <li>Create your first application</li>
+          </ol>
+           <p class="lead">Angular is a framework of NodeJs, so you need to Install NodeJs in order to use Angular.<br>
+              Go to this Link <a href="https://nodejs.org/en">https://nodejs.org/en</a> and download NodeJs. <br>
+              Install It (you may have your own preferences, so I let you manage the installation process as you desire).
+              Now open the Node.js.Command prompt that has been installed. You can find it right in your search Bar.<br>
+            </p>
+            <div class="text-center">
+            <img class="img-fluid" src="/assets/images/Articles/angular/images/nodejscommandprompt.png" alt="NodeJs Command Prompt">
+            </div>
+
+            <p class="lead">
+              From now on you need to Install the latest version of Npm.
+              Npm is a package manager for javascript developers. It’s the world largest software registry. We will need it in order to install and update Angular’s features.
+              Use the command : </p>
+              <p class="italic">- npm install npm@latest -g</p>
+               <br>
+               <p class="lead">
+               You can go to Npm official website if you’re willing to discover more about it : <a>https://www.npmjs.com</a>
+               <br>
+               Install the angular Cli with </p>
+               <p class="italic">- npm install -g @angular/cli</p>
+               <br>
+
+               <p class="lead">
+               Now you have everything needed to create your first app.
+               <br>
+               Go to the folder you want to create your angular project in with the cd command: cd [the path to your folder]. and follow these 3 steps:
+              </p>
+              <ol>
+                  <li>-	Create the application with the command<p class="italic"> ng new [your app name]</p> This command entirely creates an application</li>
+                    <p>It may take some time </p>
+                   <img class="img-fluid" src="/assets/images/Articles/angular/images/ng_new_working.png" alt="NodeJs Command Prompt">
+                  <br><br>
+                  <li>-	Go to the folder of the application you just created with the command : <p class="italic"> cd [your app name]</p></li>
+                  <li>-	Launch your app with ng serve --open (this command launch a local web server that shows your application in your default browser)</li>
+                </ol>
+                <p class="lead">
+                  You can now go check your app on the default url <strong>http://localhost:4200</strong> :
+                  <br><br>
+                  <img class="img-fluid" src="/assets/images/Articles/angular/images/localbrowser.PNG" alt="localbrowser">
+
+                </p>
+          </div>
